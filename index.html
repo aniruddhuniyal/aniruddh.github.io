@@ -1031,8 +1031,6 @@
   <footer>
     <span class="footer-name">Aniruddh Uniyal</span>
     <span class="footer-copy">© 2025 — All rights reserved</span>
-    <!--linkedin profile badge-->
-    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="aniruddh-uniyal-8069683b2" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/aniruddh-uniyal-8069683b2?trk=profile-badge"></a></div>
   </footer>
 
   <script>
@@ -1198,12 +1196,22 @@
         { text: '  github  → open GitHub profile', cls: 't-out-dim' },
         { text: '  skills  → areas of expertise', cls: 't-out-dim' },
         { text: '  clear   → clear terminal', cls: 't-out-dim' },
+        { text: '  languages → languages I code in', cls: 't-out-dim' }
       ]),
       skills: () => appendLines([
         { text: 'EXPERTISE', cls: 't-out-gold' },
         { text: '  Cybersecurity', cls: 't-out-dim' },
         { text: '  AI & Data Science', cls: 't-out-dim' },
         { text: '  Networking', cls: 't-out-dim' },
+      ]),
+      languages: () => appendLines([
+        { text: 'LANGUAGES', cls: 't-out-gold' },
+        { text: '  python', cls: 't-out-dim' },
+        { text: '  c++', cls: 't-out-dim' },
+        { text: '  ada', cls: 't-out-dim' },
+        { text: '  sql', cls: 't-out-dim' },
+        { text: '  asm', cls: 't-out-dim' },
+        { text: '  dart', cls: 't-out-dim' },
       ]),
       clear: () => { termOutput.innerHTML = ''; },
     };
